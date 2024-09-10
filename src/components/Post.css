@@ -1,0 +1,52 @@
+.post {
+  background-color: #ffffff;
+  max-width: 500px;
+  border: 1px solid lightgrey;
+  margin-bottom: 45px;
+}
+
+.postImage {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.postText {
+  font-weight: normal;
+  padding: 20px;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.postAvatar {
+  margin-right: 10px;
+}
+
+.postComments {
+  padding: 10px;
+}
+
+.postComment {
+  display: flex;
+  margin-top: 10px;
+}
+
+.postCommentInput {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid lightgrey;
+}
+
+.postCommentButton {
+  flex: 0;
+  border: none;
+  border-top: 1px solid lightgrey;
+  color: #6082a3;
+  background-color: transparent;
+}

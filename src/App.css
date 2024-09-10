@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.appHeader {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appHeaderImage {
+  object-fit: contain;
+}
+
+.appPosts {
+  padding: 20px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.appPostsRight {
+  margin-left: 40px;
+}
+
+.appModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+}
+
+.appSignUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.appUploader {
+  background-color: #ffffff;
+  border-top: 1px solid lightgrey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  padding-bottom: 40px;
+}
+
+.appLoginPush {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: xx-large;
+  border-top: 1px solid lightgrey;
+}
+
+.appLoginContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.appButton {
+  border: 1px solid lightgrey;
+}
